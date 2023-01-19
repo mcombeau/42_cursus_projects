@@ -24,7 +24,7 @@
 	url = git@github.com:mcombeau/philosophers.git
 [submodule "3_minishell"]
 	path = 3_minishell
-	url = https://github.com/mcombeau/minishell
+	url = git@github.com:mcombeau/minishell.git
 [submodule "4_cpp_piscine"]
 	path = 4_cpp_piscine
 	url = git@github.com:mcombeau/Cpp_Modules.git
