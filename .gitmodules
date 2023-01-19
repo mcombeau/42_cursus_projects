@@ -19,3 +19,9 @@
 [submodule "2_fractol"]
 	path = 2_fractol
 	url = git@github.com:mcombeau/fract-ol.git
+[submodule "3_philosophers"]
+	path = 3_philosophers
+	url = git@github.com:mcombeau/philosophers.git
+[submodule "3_minishell"]
+	path = 3_minishell
+	url = https://github.com/mcombeau/minishell
