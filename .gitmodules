@@ -10,3 +10,12 @@
 [submodule "1_born2beroot"]
 	path = 1_born2beroot
 	url = git@github.com:mcombeau/Born2beroot.git
+[submodule "2_push_swap"]
+	path = 2_push_swap
+	url = git@github.com:mcombeau/push_swap.git
+[submodule "2_pipex"]
+	path = 2_pipex
+	url = git@github.com:mcombeau/pipex.git
+[submodule "2_fractol"]
+	path = 2_fractol
+	url = git@github.com:mcombeau/fract-ol.git
