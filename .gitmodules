@@ -1,3 +1,12 @@
 [submodule "0_libft"]
 	path = 0_libft
 	url = git@github.com:mcombeau/libft.git
+[submodule "1_get_next_line"]
+	path = 1_get_next_line
+	url = git@github.com:mcombeau/get_next_line.git
+[submodule "1_ft_printf"]
+	path = 1_ft_printf
+	url = git@github.com:mcombeau/ft_printf.git
+[submodule "1_born2beroot"]
+	path = 1_born2beroot
+	url = git@github.com:mcombeau/Born2beroot.git
