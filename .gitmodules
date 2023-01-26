@@ -34,3 +34,6 @@
 [submodule "4_cub3d"]
 	path = cub3d
 	url = git@github.com:mcombeau/cub3D.git
+[submodule "ft_containers"]
+	path = ft_containers
+	url = git@github.com:mcombeau/ft_containers.git
