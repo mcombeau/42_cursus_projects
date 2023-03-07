@@ -37,3 +37,6 @@
 [submodule "ft_containers"]
 	path = ft_containers
 	url = git@github.com:mcombeau/ft_containers.git
+[submodule "ft_irc"]
+	path = ft_irc
+	url = git@github.com:Ellana42/ft_irc.git
