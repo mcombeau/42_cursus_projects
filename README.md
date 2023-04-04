@@ -16,7 +16,7 @@ My 42 school curriculum projects.
 | 4 | [cpp modules](https://github.com/mcombeau/Cpp_Modules)   | ![Cpp_Modules top language](https://img.shields.io/github/languages/top/mcombeau/Cpp_Modules?style=flat-square) | ![Cpp_Modules grade](https://img.shields.io/badge/:-100%25-success?style=flat-square&logo=42) | Create a series of small C++ programs to explore OOP. |
 | 4 | [cub3d](https://github.com/mcombeau/cub3D.git)           | ![cub3D top language](https://img.shields.io/github/languages/top/mcombeau/cub3D?style=flat-square) |  ![Cub3D grade](https://img.shields.io/badge/:-115%25-success?style=flat-square&logo=42) | Create a Wolfenstein3D-like maze program. Team project. |
 | 4 | [net_practice](https://github.com/mcombeau/net_practice) | ![net_practice top language](https://img.shields.io/github/languages/top/mcombeau/net_practice?style=flat-square) | ![net_practice grade](https://img.shields.io/badge/:-100%25-success?style=flat-square&logo=42) | Solve IP addressing and network issues in a training interface. |
-| 5 | [ft_containers](https://github.com/mcombeau/ft_containers) | ![ft_containers top language](https://img.shields.io/github/languages/top/mcombeau/ft_containers?style=flat-square) | ![Cpp_Modules grade](https://img.shields.io/badge/:-WIP-blue?style=flat-square&logo=42) | Reimplement containers in C++. |
+| 5 | [ft_irc](https://github.com/Ellana42/ft_irc) | ![ft_irc top language](https://img.shields.io/github/languages/top/Ellana42/ft_irc?style=flat-square) | ![ft_irc grade](https://img.shields.io/badge/:-WIP-blue?style=flat-square&logo=42) | Create an IRC chat server in C++. |
 
 
 ## Usage
@@ -32,6 +32,13 @@ Alternatively, you can:
 ```shell
 git clone git@github.com:mcombeau/42_cursus_projects.git
 git submodule update --init --recursive
+```
+
+To add a repository to this collection:
+```shell
+git submodule add -b <branch> <repository> [<submodule-path>]
+git config -f .gitmodules submodule.<submodule-path>.update rebase
+git submodule update --remote --recursive
 ```
 
 ---
