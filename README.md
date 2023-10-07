@@ -44,5 +44,12 @@ git config -f .gitmodules submodule.<submodule-path>.update rebase
 git submodule update --remote --recursive
 ```
 
+To remove a repository from this collection:
+```shell
+git submodule deinit -f <submodule-path>
+rm -rf .git/modules/<submodule-path>
+git rm -f <submodule-path>
+```
+
 ---
 Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
