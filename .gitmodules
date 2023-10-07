@@ -63,3 +63,8 @@
 	url = https://github.com/mcombeau/inception
 	branch = main
 	update = rebase
+[submodule "ft_irc"]
+	path = ft_irc
+	url = https://github.com/mcombeau/ft_irc
+	branch = main
+	update = rebase
