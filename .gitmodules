@@ -58,11 +58,6 @@
 	url = git@github.com:mcombeau/net_practice.git
 	branch = main
 	update = rebase
-[submodule "ft_irc"]
-	path = ft_irc
-	url = git@github.com:Ellana42/ft_irc.git
-	branch = main
-	update = rebase
 [submodule "inception"]
 	path = inception
 	url = https://github.com/mcombeau/inception
