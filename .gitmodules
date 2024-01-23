@@ -68,3 +68,8 @@
 	url = https://github.com/mcombeau/ft_irc
 	branch = main
 	update = rebase
+[submodule "ft_transcendance"]
+	path = ft_transcendance
+	url = git@github.com:mcombeau/ft_transcendance.git
+	branch = main
+	update = rebase
